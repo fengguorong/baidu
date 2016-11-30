@@ -2,12 +2,12 @@ $(function(){
     var num=0;
     var heights=$(window).height();
     var flag=true;
-    $(".content").mousedown(function(e){
+    $(".content")[0].onmousedown=function(e){
         e.preventDefault();
-    })
-    $(".content").mousemove(function(e){
+    }
+    $(".content")[0].onmousemove=function(e){
         e.preventDefault();
-    })
+    }
     touch.on("body","swipeup",".content",function(){
         if(!flag){
             return;
