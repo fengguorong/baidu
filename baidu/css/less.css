@@ -17,11 +17,13 @@ a {
 }
 /*小屏的时候*/
 .container {
-    width: 735px;
+    width: 100%;
     margin: auto;
 }
 .container > .row {
     width: 100%;
+    position:relative;
+
 }
 .container > .row:before,
 .container > .row:after {
@@ -37,6 +39,7 @@ a {
 }
 .container-fluid > .row {
     width: 100%;
+    position:relative;
 }
 .container-fluid > .row:before,
 .container-fluid > .row:after {
@@ -151,6 +154,8 @@ a {
     .container {
         width: 1000px;
         margin: auto;
+        position:relative;
+
     }
     .container > .row > .col-m-1 {
         float: left;
