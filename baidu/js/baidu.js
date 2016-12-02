@@ -45,6 +45,8 @@ $(function(){
                     $(obj).find(".towright").css({transform:"translate(100px,0)"});
                 }
             })
+        }else{
+
         }
     })
 
